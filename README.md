@@ -2,7 +2,6 @@
 
 This repo will include all the materials used in our workshop for COMP1000 Assignment 1 aided by the Programming Club of Curtin Colombo
 
-</style>
 <details>
     <summary><h2>0. Setup</h2></summary>
     <h3>I. Environment</h3>
@@ -20,20 +19,26 @@ This repo will include all the materials used in our workshop for COMP1000 Assig
     <p>
     Before anything we need to update and upgrade our unix environment using the following command.
     </p>
+    <pre>
     <code class="language-bash">
         sudo apt upgrade && apt update
     </code>
+    </pre>
     <p>
     Then install the requirements using the following command.
     </p>
+    <pre>
     <code class="language-bash">
         sudo apt install git gcc valgrind make -y
     </code>
+    </pre>
     <h3>III. Getting this repo</h3>
     <p>Using git</p>
+    <pre>
     <code class="language-bash">
         git clone https://github.com/Curtin-Colombo-PC/COMP1000-A1-W1.git
     </code>
+    </pre>
     <br><br>
     <p>Download the zip file</p>
     <a href="https://github.com/Curtin-Colombo-PC/COMP1000-A1-W1/archive/refs/heads/main.zip"><img alt="Download Zip" src="https://github.com/TodoLodo/TodoLodo/raw/main/imgs/buttons/GithubDownloadZip%5B276x48%5D.png" style="max-width: 100%;"></a>

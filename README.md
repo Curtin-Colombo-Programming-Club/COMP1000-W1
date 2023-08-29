@@ -19,20 +19,9 @@ This repo will include all the materials used in our workshop for COMP1000 Assig
     Before anything we need to update and upgrade our unix environment using the following command
     </p>
    <br>
-    
     ```bash
     sudo apt upgrade && apt update
     ```
-</details>
-
-<details>
-    <summary>There's code inside this dropdown...</summary>
-    <br>
-      
-      This is how you add `code` in a dropdown:
-      ```javascript
-      console.log("Hello, world!");
-      ```
 </details>
 
 ## 1. Starter

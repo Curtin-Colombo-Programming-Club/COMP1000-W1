@@ -1,35 +1,43 @@
 # COMP1000 ASSIGNMENT 1 WORKSHOP MATERIALS
 
 This repo will include all the materials used in our workshop for COMP1000 Assignment 1 aided by the Programming Club of Curtin Colombo
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/shell.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/c.min.js"></script>
+
+</style>
 <details>
     <summary><h2>0. Setup</h2></summary>
-    <h3>i. Environment</h3>
+    <h3>I. Environment</h3>
     <p>
     To start you need an unix environment, and if you don't have one, you can create a virtual environment using <a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a> or <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a>, Or else you can download <a href="https://learn.microsoft.com/en-us/windows/wsl/install">wsl</a>
     <p>
-    <h3>ii. Installing requirements</h3>
+    <h3>II. Installing requirements</h3>
     To follow along with this workshop, you need the following
     <ul>
         <li>git - to clone this repo</li>
         <li>gcc - for c compiling</li>
+        <li>make - for makefile</li>
         <li>valgrind - to check for memory leaks</li>
     </ul>
     <p>
-    Before anything we need to update and upgrade our unix environment using the following command
+    Before anything we need to update and upgrade our unix environment using the following command.
     </p>
-   <pre>
-        <code class="language-bash">
-            sudo apt upgrade && apt update
-        </code>
-    </pre>
+    <code class="language-bash">
+        sudo apt upgrade && apt update
+    </code>
+    <p>
+    Then install the requirements using the following command.
+    </p>
+    <code class="language-bash">
+        sudo apt install git gcc valgrind make -y
+    </code>
+    <h3>III. Getting this repo</h3>
+    <p>Using git</p>
+    <code class="language-bash">
+        git clone https://github.com/Curtin-Colombo-PC/COMP1000-A1-W1.git
+    </code>
+    <br><br>
+    <p>Download the zip file</p>
+    <a href="https://github.com/Curtin-Colombo-PC/COMP1000-A1-W1/archive/refs/heads/main.zip"><img alt="Download Zip" src="https://github.com/TodoLodo/TodoLodo/raw/main/imgs/buttons/GithubDownloadZip%5B276x48%5D.png" style="max-width: 100%;"></a>
 </details>
-
-
-<script>hljs.highlightAll();</script>
 
 ## 1. Starter
 

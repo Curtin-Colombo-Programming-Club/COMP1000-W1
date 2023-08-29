@@ -18,6 +18,7 @@ This repo will include all the materials used in our workshop for COMP1000 Assig
     <p>
     Before anything we need to update and upgrade our unix environment using the following command
     </p>
+    
     ```bash
     sudo apt upgrade && apt update
     ```

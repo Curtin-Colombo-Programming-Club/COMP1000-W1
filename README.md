@@ -1,6 +1,28 @@
 # COMP1000 ASSIGNMENT 1 WORKSHOP MATERIALS
 
-This repo will include all the materials used in our workshop for COMP1000 Assignment 1 aid by the Programming Club of Curtin Colombo
+This repo will include all the materials used in our workshop for COMP1000 Assignment 1 aided by the Programming Club of Curtin Colombo
+
+<details>
+    <summary><h2>0. Setup</h2></summary>
+    <h3>i. Environment</h3>
+    <p>
+    To start you need an unix environment, and if you don't have one, you can create a virtual environment using <a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a> or <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a>, Or else you can download <a href="https://learn.microsoft.com/en-us/windows/wsl/install">wsl</a>
+    <p>
+    <h3>ii. Installing requirements</h3>
+    To follow along with this workshop, you need the following
+    <ul>
+        <li>git - to clone this repo</li>
+        <li>gcc - for c compiling</li>
+        <li>valgrind - to check for memory leaks</li>
+    </ul>
+    <p>
+    Before anything we need to update and upgrade our unix environment using the following command
+    </p>
+    ```bash
+    sudo apt upgrade && apt update
+    ```
+
+</details>
 
 ## 1. Starter
 
@@ -247,7 +269,7 @@ gcc -Wall -ansi -pedantic customArray.c -o customArray
 
 ## 7. Multiple Files?
 
-When programming we tend to categorize our functions into different files, but when compiling we need to link them together. 
+When programming we tend to categorize our functions into different files, but when compiling we need to link them together.
 
 Before compiling when building/programming our functions we would share these functions among the other files we have, so it's important to share the functions' information using header files and `#include`
 
@@ -261,26 +283,32 @@ To compile them together, first, you need to create the object file using `-c` f
 
 syntax<br>
 single file
+
 ```bash
 gcc -Wall -ansi -pedantic fileName.c -c
 ```
 
 multiple files
+
 ```bash
 gcc -Wall -ansi -pedantic file1.c file2.c file3.c -c
 ```
 
 Then you need to link all the object file files together
+
 ```bash
 gcc file1.o file2.o file3.o -o outPut
 ```
 
 **to compile MulFileMain.c, MulFileMath.c and MulFileStr.c**<br>
 First
+
 ```bash
 gcc -Wall -ansi -pedantic MulFileMain.c MulFileMath.c MulFileStr.c -c
 ```
+
 Then
+
 ```bash
 gcc -Wall -ansi -pedantic MulFileMain.o MulFileMath.o MulFileStr.o -o MulFile
 ```
@@ -291,7 +319,7 @@ gcc -Wall -ansi -pedantic MulFileMain.o MulFileMath.o MulFileStr.o -o MulFile
 ./MulFile
 ```
 
-## 8. MakeFile  (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+## 8. MakeFile (ﾉ ◕ ヮ ◕)ﾉ\*:・ﾟ ✧
 
 As you saw before making the object file and linking them all together was a lot of work, especially when it comes to recompiling after fixing errors.
 
@@ -300,6 +328,7 @@ To solve this problem we create a **MakeFile** (could be abbreviated as, makefil
 Refer to the **Makefile** that is provided which will compile all MulFile prefixed c files.
 
 Use the following command to run the **Makefile**
+
 ```bash
 make
 ```

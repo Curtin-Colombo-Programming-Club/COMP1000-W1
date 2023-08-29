@@ -1,7 +1,10 @@
 # COMP1000 ASSIGNMENT 1 WORKSHOP MATERIALS
 
 This repo will include all the materials used in our workshop for COMP1000 Assignment 1 aided by the Programming Club of Curtin Colombo
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/shell.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/c.min.js"></script>
 <details>
     <summary><h2>0. Setup</h2></summary>
     <h3>i. Environment</h3>
@@ -18,11 +21,15 @@ This repo will include all the materials used in our workshop for COMP1000 Assig
     <p>
     Before anything we need to update and upgrade our unix environment using the following command
     </p>
-   <br>
-    ```bash
-    sudo apt upgrade && apt update
-    ```
+   <pre>
+        <code class="language-bash">
+            sudo apt upgrade && apt update
+        </code>
+    </pre>
 </details>
+
+
+<script>hljs.highlightAll();</script>
 
 ## 1. Starter
 

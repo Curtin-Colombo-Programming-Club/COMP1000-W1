@@ -352,3 +352,7 @@ Use the following command to run the **Makefile**
 ```bash
 make
 ```
+
+## 9. Examples :raised_hands: :dizzy:
+
+Check the Example Assignments dir!

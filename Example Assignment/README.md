@@ -32,6 +32,25 @@ Basic functionalities of the game should include the following:
 
 * User must be able to move the player "P" within bounds using 'w', 'a', 's' and 'd'.
 
-* At each player movement a random floor tile must break "X" and should update the map.
+* At each player movement, a random floor tile must break "X" and should update the map.
 
 * A broken floor "X" cannot spawn on player "P" or goal "G" and a player cannot move towards a broken floor.
+
+---
+<h3
+  style="
+    text-align: right;
+    margin: 0 12;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  "
+>
+  <img
+    width="27"
+    height="27"
+    alt="PC LOGO"
+    src="https://raw.githubusercontent.com/Curtin-Colombo-PC/.github/main/logo.svg?sanitize=true"
+  />
+  <span>Programming Club of Curtin Colombo</span>
+</h3>

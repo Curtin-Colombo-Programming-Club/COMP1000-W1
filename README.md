@@ -356,3 +356,6 @@ make
 ## 9. Examples :raised_hands: :dizzy:
 
 Check the Example Assignments dir!
+
+@@include[my-file.md](https://raw.githubusercontent.com/Curtin-Colombo-PC/.github/main/footer.md
+) { #footer }

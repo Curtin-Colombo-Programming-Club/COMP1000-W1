@@ -115,10 +115,12 @@ void freeMap(char **map, int rows)
 {
     int i;
 
+    /* freeing each row */
     for (i = 0; i < rows; i++)
     {
         free(map[i]);
     }
 
+    /* freeing the variable */
     free(map);
 }
